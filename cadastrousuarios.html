@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contafdor de Horas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg" >
+                <div class="container-fluid" >
+                    <a class="navbar-brand" href="#"></a>            
+                    <ul class="navbar-nav" style="margin-right: 50px;">                              
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            <b> Usuário</b>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: #58943E;">
+                            <li><a class="dropdown-item" href="#" style="color: white;">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+        <main>
+            <h1>Contador de Horas</h1>
+
+            <div class="col py-3" id="conteudo" >
+                <section>
+                    <div >
+                        <h3>Cadastro Usuário</h3>                        
+                    </div>
+
+                    <div>
+                        <ul class="ulum">
+                            <div><li>
+                                <label for="nome">Nome Usuário:</label>
+                                <input type="text" id="nome" /></li>
+                            </div>
+            
+                            <div><li>
+                                <label for="email">E-Mail:</label>
+                                <input type="email" id="email" /></li>
+                            </div>
+                            <div><li>
+                                <label for="senha">Senha:</label>
+                                <input type="text" id="senha" /></li>
+                            </div>
+                        </ul> 
+
+                        <div class="botaocadastrar">
+                            <input type="submit" value="Cadastrar" style=" border: 3px solid #43AD15; background-color: #88E660; width: 200px; height: 50px; border-radius: 15px; font-size: 20px;"></div>
+                        <div>
+                    <div>   
+                    <div >
+                        <h3>Usuários Cadastrados</h3>                        
+                    </div>
+                    <table class="table">
+                        <thead>
+                        <tr>                        
+                            <th scope="col">Usuário</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Senha</th>    
+                            <th>&nbsp</th>
+                            <th>&nbsp</th>                                                   
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>                        
+                            <td><a href="#"> &nbsp</a></td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>                        
+                            <td><a href="#"> &nbsp</a></td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>                        
+                            <td><a href="#"> &nbsp</a></td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeeditar" type="submit"><img class="iconeeditar" src="iconeeditar.png" alt="editar" href="#"></button></td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                
+            </div>
+        </main>
+    </body>
+</html>

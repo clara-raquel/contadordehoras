@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contafdor de Horas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg" >
+                <div class="container-fluid" >
+                    <a class="navbar-brand" href="#"></a>            
+                    <ul class="navbar-nav" style="margin-right: 50px;">                              
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            <b> Usuário</b>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: #58943E;">
+                            <li><a class="dropdown-item" href="#" style="color: white;">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+        <main>
+            <h1>Contador de Horas</h1>
+
+            <div class="col py-3" id="conteudo" >
+                <section>
+                    <div class="linhaum">
+                        <h3>Relatório Geral de Horas</h3>
+                        <select class="selecionar" id="mesano" >
+                            <option selected disabled value="" >Período</option>
+                            <option>>&nbsp</option>
+                            <option>>&nbsp</option>
+                            <option>>&nbsp</option>
+                        </select>
+                        <select class="selecionar" id="mesano" >
+                            <option selected disabled value="" >Operador</option>
+                            <option>>&nbsp</option>
+                            <option>>&nbsp</option>
+                            <option>>&nbsp</option>
+                        </select>
+                    </div>
+                    <table class="table">
+                        <thead>
+                        <tr>                        
+                            <th scope="col">Data</th>
+                            <th scope="col">Hora Início</th>
+                            <th scope="col">Hora Término</th>
+                            <th scope="col">Tempo</th>    
+                            <td>&nbsp</td>
+                       
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>                        
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>                        
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        <tr>                        
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td>&nbsp</td>
+                            <td><button class="iconeexcluir" type="submit"><img class="iconeexcluir" src="iconeexcluir.jpg" alt="excluir" href="#"></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="total">
+                    <h3>Tempo Total Acumulado</h3>
+                    <div>
+                        &nbsp
+                    </div>
+                    <div>
+                        <input type="submit" value="Cadastro Usuário" style=" border: 3px solid #43AD15; background-color: #88E660; width: 200px; height: 50px; border-radius: 15px; font-size: 20px;"></div>
+                    <div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
